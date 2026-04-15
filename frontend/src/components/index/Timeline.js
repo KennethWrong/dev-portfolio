@@ -157,9 +157,6 @@ export default Timeline
 //             <h1 className='text-3xl md:text-5xl text-center lg:text-left'> Kenneth Wong Hon Nam </h1>
 //             <p className={`${attributeStyle}`}> Senior @ Purdue University in Computer Engineering and Computer Networking and Information Technology</p>
 //             <p className={`${attributeStyle}`}> Incoming Software Engineer @ TikTok inc.</p>
-//             <p className={`${attributeStyle} text-blue-600 hover:text-purple-600 hover:cursor-pointer`}
-//             onClick={() => window.location = 'mailto:cankennethwong@gmail.com'}
-//             > cankennethwong [AT] gmail.com</p>
 //             <div className='flex flex-row lg:justify-start justify-center mt-2 mb-2'>
 //                 <a href="https://github.com/KennethWrong">
 //                     <img src="/images/GitHubLogo.png" className={`${logoStyle}`} />
