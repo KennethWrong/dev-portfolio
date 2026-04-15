@@ -1,10 +1,7 @@
-import {useState} from 'react'
-
 function Intro(){
     const attributeStyle = "mt-3 md:text-xl text-center lg:text-left text-md"
     const logoStyle = "w-12 h-12 ml-4"
     const subtextStyle = "text-gray-400"
-    const [showEmail, setShowEmail] = useState(false)
 
     return(
         <div className='p-3 font-mono mb-12'>
@@ -25,17 +22,10 @@ function Intro(){
                         <a href="https://www.linkedin.com/in/kenneth-wong-hon-nam/">
                             <img src="/images/linkedinLogo.png" className={`${logoStyle}`}/>
                         </a>
-                        <a onClick={() => setShowEmail(!showEmail)} className='cursor-pointer'>
-                            <img src="/images/emailLogo.png" className={`${logoStyle}`} />
-                        </a>
                         <a href="https://www.instagram.com/werunm.env/?hl=en">
                             <img src="/images/instagramLogo.png" className={`${logoStyle}`} />
                         </a>
                     </div>
-                    <p className={`${attributeStyle} ${subtextStyle} ${!showEmail ? "invisible" : ""}
-                        text-blue-600 hover:text-purple-600 hover:cursor-pointer`}
-                    onClick={() => window.location = 'mailto:cankennethwong@gmail.com'}
-                    > cankennethwong [AT] gmail.com</p>
                 </div>
             </div>
 
